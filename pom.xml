@@ -38,6 +38,11 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc10</artifactId>
+            <version>19.15.0.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>
